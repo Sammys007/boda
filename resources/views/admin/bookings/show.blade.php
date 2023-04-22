@@ -29,7 +29,7 @@
     <meta property="og:site_name" content="Boda">
     <meta property="og:title" content="Nuestra Boda - Oscar y Miriam" />
     <meta property="og:description" content="¡Gracias por formar parte de nuestra felicidad!" />
-    <meta property="og:image" itemprop="image" content="{{ asset('event/images/pareja-1.jpeg')}}">
+    <meta property="og:image" itemprop="image" content="{{ asset('event/images/flores.jpg')}}">
     <meta property="og:type" content="website" />
     <meta property="og:updated_time" content="1440432930" />
   	<!-- Facebook and Twitter integration -->
