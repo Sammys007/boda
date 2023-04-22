@@ -240,7 +240,8 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Nos Amamos</span>
 					<h2>Nuestra Historia</h2>
-					<p>Texto Personalizado...</p>
+					{{--
+					<p>Texto Personalizado...</p>--}}
 				</div>
 			</div>
 			<div class="row">
@@ -250,11 +251,13 @@
 							<div class="timeline-badge" style="background-image:url(../../event/images/pareja1.jpeg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
+									<i class="icon-heart"></i>
+									{{--
 									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
+									<span class="date">December 25, 2015</span>--}}
 								</div>
 								<div class="timeline-body">
-									<p>Texto Personalizado...</p>
+									<p>Dios no pone en tu vida a la persona que pides. Dios pone en tu vida a la persona que necesitas.</p>
 								</div>
 							</div>
 						</li>
@@ -262,11 +265,13 @@
 							<div class="timeline-badge" style="background-image:url(../../event/images/pareja2.jpeg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
+								<i class="icon-heart"></i>
+									{{--
+									<h3 class="timeline-title">First We Meet</h3>
+									<span class="date">December 25, 2015</span>--}}
 								</div>
 								<div class="timeline-body">
-									<p>Texto Personalizado...</p>
+									<p>Es fácil encontrar una relación, pero necesitamos encontrar una... ¡que ponga a Dios en el centro!</p>
 								</div>
 							</div>
 						</li>
@@ -274,11 +279,13 @@
 							<div class="timeline-badge" style="background-image:url(../../event/images/pareja3.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
+								<i class="icon-heart"></i>
+									{{--
+									<h3 class="timeline-title">First We Meet</h3>
+									<span class="date">December 25, 2015</span>--}}
 								</div>
 								<div class="timeline-body">
-									<p>Texto Personalizado...</p>
+									<p>Eres tú la historia más bonita, que Dios escribió en mi vida.</p>
 								</div>
 							</div>
 						</li>
@@ -310,6 +317,21 @@
                                     @else
 							        <h3>Pase valido para {{ $booking->name }} personas más. </h3>
                                     @endif
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>5:00 PM</span>
+                                        {{--
+										<span>12:00 AM</span>--}}
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Sábado 22</span>
+										<span>Julio, 2023</span>
+									</div>
+                                    <p>
+                                    Jardín Los Cipreses <br>
+                                    Dirección: La Luz 103, Universidad, Agencia de Policia de Candiani, 68130 Oaxaca de Juárez, Oaxaca.
+                                    </p>
 
 								</div>
 							</div>
