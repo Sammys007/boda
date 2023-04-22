@@ -9,8 +9,8 @@
 	<title>Nuestra Boda &mdash; Oscar y Miriam </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="¡Gracias por formar parte de nuestra felicidad!" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="keywords" content="boda,celebración" />
+	<meta name="author" content="INTELIRED" />
 
   <!--
 	//////////////////////////////////////////////////////
@@ -26,8 +26,15 @@
 	//////////////////////////////////////////////////////
 	 -->
 
+    <meta property="og:site_name" content="Boda">
+    <meta property="og:title" content="Nuestra Boda - Oscar y Miriam" />
+    <meta property="og:description" content="¡Gracias por formar parte de nuestra felicidad!" />
+    <meta property="og:image" itemprop="image" content="{{ asset('event/images/pareja-1.jpeg')}}">
+    <meta property="og:type" content="website" />
+    <meta property="og:updated_time" content="1440432930" />
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
+	{{--
+    <meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
 	<meta property="og:site_name" content=""/>
@@ -36,7 +43,7 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-
+    --}}
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 
