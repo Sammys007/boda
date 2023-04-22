@@ -110,7 +110,7 @@
 	</nav>
     
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(../../event/images/pareja.jpeg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(../../event/images/pareja-1.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -195,7 +195,7 @@
 									<p>
                                     Iglesia Monte de los Olivos <br>
                                     Dirección: Av. Hidalgo N° 220-B Col. 25 de enero, Sta. Lucía del Camino, Oaxaca <br>
-                                    Ubicación: clic <a href="https://goo.gl/maps/9ZGYu6sCRB2NHiDVA">aquí</a> 
+                                    Ubicación: clic <a href="https://goo.gl/maps/9ZGYu6sCRB2NHiDVA" target="_blank">AQUÍ <i class="icon-download"></i></a> 
                                     </p>
 								</div>
 							</div>
@@ -216,7 +216,7 @@
                                     <p>
                                     Jardín Los Cipreses <br>
                                     Dirección: La Luz 103, Universidad, Agencia de Policia de Candiani, 68130 Oaxaca de Juárez<br>
-                                    Ubicación: clic <a href="https://goo.gl/maps/FD2K3qFSF4sUt1yb6">aquí</a> 
+                                    Ubicación: clic <a href="https://goo.gl/maps/FD2K3qFSF4sUt1yb6" target="_blank">AQUÍ <i class="icon-download"></i></a> 
                                     </p>
                                 </div>
 							</div>
