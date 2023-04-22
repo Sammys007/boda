@@ -310,8 +310,10 @@
 						<div class="col-md-10 col-md-offset-1 ">
 							<div class="col-md-12 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
-									<h3>¡Gracias por formar parte de nuestra felicidad!</h3>
-									<h3>Te Invitamos {{ $booking->ride->departure_place }}</h3>
+									<h3>¡Gracias por formar parte de nuestra felicidad! <br>
+									Te Invitamos {{ $booking->ride->departure_place }}
+									</h3>
+									
                                     @if($booking->name == "0")
 
                                     @else
@@ -331,7 +333,11 @@
                                     <p>
                                     Jardín Los Cipreses <br>
                                     Dirección: La Luz 103, Universidad, Agencia de Policia de Candiani, 68130 Oaxaca de Juárez, Oaxaca.
+									<br>
+									{!!QrCode::size(115)->margin(1)->style('round')->eyeColor(0, 238, 71, 236, 238, 71,236)->eyeColor(1, 238, 71, 236, 238, 71,236)->eyeColor(2, 238, 71, 236, 238, 71,236)->generate(url()->current()) !!}
+									
                                     </p>
+
 
 								</div>
 							</div>
