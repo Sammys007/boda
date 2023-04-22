@@ -110,7 +110,7 @@
 	</nav>
     
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(../../event/images/pareja-1.jpeg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(../../event/images/pareja-2.jpeg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
