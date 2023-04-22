@@ -298,7 +298,12 @@
 								<div class="event-wrap animate-box">
 									<h3>¡Gracias por formar parte de nuestra felicidad!</h3>
 									<h3>Te Invitamos {{ $booking->ride->departure_place }}</h3>
+                                    @if($booking->name == "0")
+
+                                    @else
 							        <h3>Pase valido para {{ $booking->name }} personas más. </h3>
+                                    @endif
+
 								</div>
 							</div>
 							
