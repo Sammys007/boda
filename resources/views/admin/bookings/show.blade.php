@@ -303,8 +303,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Pase de acceso a</span>
-					<h2>Nuestra Boda</h2>
+					<span>Pase de acceso al</span>
+					<h2>Evento Social</h2>
 				</div>
 			</div>
 			<div class="row">
