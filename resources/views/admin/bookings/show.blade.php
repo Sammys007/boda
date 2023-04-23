@@ -155,7 +155,8 @@
 					</div>
 					<div class="desc-groom">
 						<h3>Oscar</h3>
-						<p>Texto Personalizado..</p>
+						{{--
+						<p>Texto Personalizado..</p>--}}
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -165,7 +166,8 @@
 					</div>
 					<div class="desc-bride">
 						<h3>Miriam</h3>
-						<p>Texto Personalizado..</p>
+						{{--
+						<p>Texto Personalizado..</p>--}}
 					</div>
 				</div>
 			</div>
@@ -238,7 +240,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Nos Amamos</span>
+				{{--	
+				<span>Nos Amamos</span>--}}
 					<h2>Nuestra Historia</h2>
 					{{--
 					<p>Texto Personalizado...</p>--}}
