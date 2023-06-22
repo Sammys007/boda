@@ -314,13 +314,22 @@
 							<div class="col-md-12 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
 									<h3>¡Gracias por formar parte de nuestra felicidad! <br>
+
+									@if($booking->ride->departure_place == "Invitado")
+									Te Invitamos
+									@else
 									Te Invitamos {{ $booking->ride->departure_place }}
+									@endif
 									</h3>
 									
                                     @if($booking->name == "0")
 
+									@elseif($booking->name == "29")
+									<h3>Pase valido para 1 persona</h3>
+
                                     @else
 							        <h3>Pase valido para {{ $booking->name }} personas más. </h3>
+						
                                     @endif
 									<div class="event-col">
 										<i class="icon-clock"></i>
