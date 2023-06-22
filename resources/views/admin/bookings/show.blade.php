@@ -151,7 +151,7 @@
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="{{ asset('event/images/oscar2.jpeg')}}" alt="groom" class="img-responsive">
+						<img src="{{ asset('event/images/oscar4.jpeg')}}" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
 						<h3>Oscar</h3>
